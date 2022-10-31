@@ -1,0 +1,7 @@
+$ git init-b main 
+$ &git symbolic -refHEAD refs/heads/main
+$ git add
+# Adds the files in the local repositary and stages them for to commit. To unstagea file, use 'git rest HEAD your-FILE'
+$ git commit-m "First Commit"
+# commits the tracked changes and prepares them to be pushed to remote repository.
+
